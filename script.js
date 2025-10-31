@@ -57,7 +57,7 @@ scene.add(reticle);
 const loader = new GLTFLoader();
 const loadingScreen = document.getElementById('loadingScreen');
 
-loader.load('models/brain2.glb', (gltf) => {
+loader.load('models/brain.glb', (gltf) => {
   model = gltf.scene;
   
   // Center and scale the model2
