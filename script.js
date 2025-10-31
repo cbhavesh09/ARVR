@@ -57,10 +57,10 @@ scene.add(reticle);
 const loader = new GLTFLoader();
 const loadingScreen = document.getElementById('loadingScreen');
 
-loader.load('models/brain.glb', (gltf) => {
+loader.load('models/brain2.glb', (gltf) => {
   model = gltf.scene;
   
-  // Center and scale the model
+  // Center and scale the model2
   const box = new THREE.Box3().setFromObject(model);
   const center = box.getCenter(new THREE.Vector3());
   const size = box.getSize(new THREE.Vector3());
